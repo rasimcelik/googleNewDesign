@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav>
+      <div class="nav-links">Gmail</div>
+      <div class="nav-links">Görseller</div>
+      <div class="appIcon">
+        <svg class="gb_Ue" focusable="false" viewBox="0 0 24 24">
+          <path
+            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+          ></path>
+        </svg>
+      </div>
+      <div class="login">
+        <a class="loginButton" href="#">Oturum Açın </a>
+      </div>
+    </nav>
+
+    <!-- MAIN SECTION -->
+    <!-- I decided to use 3 different div's for the main block. First one for the logo, second div for the search area, the third one is for the submit buttons -->
+    <div class="main">
+      <div class="logo_1">
+        <!-- google logo -->
+        <div>
+          <img src="/assets/logo.png" alt="google" />
+        </div>
+        <div class="mid">
+          <!-- search Icon   -->
+          <div>
+            <img
+              class="searchIcon"
+              style="width: 20px"
+              src="/assets/searchIcon.svg"
+              alt=""
+            />
+          </div>
+          <!-- search bar -->
+          <div>
+            <input class="searchbar" type="text" />
+          </div>
+          <!-- keyboard Icon -->
+          <div>
+            <img
+              class="keyboardIcon"
+              style="width: 22px"
+              src="/assets/keyboard.png"
+              alt=""
+            />
+          </div>
+          <!-- voice Icon -->
+          <div class="voice">
+            <img
+              class="voiceIcon"
+              style="width: 25px"
+              src="/assets/voicelogo.png"
+              alt=""
+            />
+            <!-- <span class="voiceText" style="display: none; font-size: 12px"
+              >Sesle arama yapın</span
+            > -->
+          </div>
+        </div>
+        <div class="submitButtons">
+          <input type="submit" value="Google'da Ara" />
+          <input type="submit" value="Kendimi Şanslı Hissediyorum" />
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <!-- I divided country name with the bottom block by two div's. I also divide the bottom block into 3 different section to display flex with flex row and justify content as space between  -->
+    <footer>
+      <div class="countryName">Türkiye</div>
+      <div class="sub-footer">
+        <div>
+          <a href="#">Hakkında</a>
+          <a href="#">Reklam</a>
+          <a href="#">İşletme</a>
+          <a href="#">Arama nasıl çalışır?</a>
+        </div>
+        <div class="footer-mid">
+          <img src="/assets/leaf.png" alt="" />
+          <span> 2007'den bu yana karbon nötr</span>
+        </div>
+        <div>
+          <a href="#">Gizlilik</a>
+          <a href="#">Şartlar</a>
+          <a href="#">Ayarlar</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
